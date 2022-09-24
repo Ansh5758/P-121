@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: skyblue;
+            padding: 0;
+            color: white;
+            margin: 0;
+            font-family: 'DynaPuff';
+        }
+        #caseH1{
+            text-decoration: underline;
+            font-size: 40px;
+        }
+        #div1{
+            word-spacing: 20px;
+            font-size: 25px;
+            margin: 25px;
+        }
+        #div1 img{
+            border-radius: 10px;
+        }
+        .items{
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 25px 0px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0px 0px 15px black;
+            color: skyblue;
+        }
+        .imgSneakers{
+            display: inline-block;
+            box-shadow: 0px 0px 15px black;
+            margin: 20px;
+            border-radius: 15px;
+        }
+        .inlineB{
+            display: inline-block;
+            margin: 0px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1 id="caseH1">Case Study</h1>
+        <div id="div1"><img src="googlelens.webp" height="100" width="100"> V/S <img src="mobilenet.png" height="100" width="100"></div>
+        <div class="items">
+            <span>
+                <img src="sneakers.webp" class="imgSneakers" width="450">
+                <div class="inlineB">
+                    <h3>Google Lens: Canvas Shoes</h3>
+                    <h3>MobileNet: Running Shoe</h3>
+                <hr>
+                <h4><u>Result: <span id="shoes">MobileNet is more accurate.</span></u></h4>
+            </div>
+            </span>
+        </div>
+        <div class="items">
+            <span>
+                <img src="bottle.jpeg" class="imgSneakers" width="450">
+                <div class="inlineB">
+                    <h3>Google Lens: Water Bottle</h3>
+                    <h3>MobileNet: Water Bottle</h3>
+                <hr>
+                <h4><u>Result: <span id="bottle">Both of them are accurate.</span></u></h4>
+            </div>
+            </span>
+        </div>
+        <div class="items">
+            <span>
+                <img src="mobile.jpeg" class="imgSneakers" width="450">
+                <div class="inlineB">
+                    <h3>Google Lens: Mobile Phone</h3>
+                    <h3>MobileNet: Cellular Phone</h3>
+                <hr>
+                <h4><u>Result: <span id="mobile">Both of them are accurate.</span></u></h4>
+            </div>
+            </span>
+        </div>
+    </center>
+</body>
+
+</html>
